@@ -36,7 +36,7 @@ namespace CityInfo.API
                     Name = "Antwerp",
                     Description = "The one with the cathedral that was never really finished.",
                     PointsOfInterest = new List<PointOfInterestDto>()
-                    {
+                     {
                          new PointOfInterestDto() {
                              Id = 3,
                              Name = "Cathedral of Our Lady",
@@ -45,7 +45,7 @@ namespace CityInfo.API
                              Id = 4,
                              Name = "Antwerp Central Station",
                              Description = "The the finest example of railway architecture in Belgium." },
-                    }
+                     }
                 },
                 new CityDto()
                 {
@@ -53,7 +53,7 @@ namespace CityInfo.API
                     Name = "Paris",
                     Description = "The one with that big tower.",
                     PointsOfInterest = new List<PointOfInterestDto>()
-                    {
+                     {
                          new PointOfInterestDto() {
                              Id = 5,
                              Name = "Eiffel Tower",
@@ -62,7 +62,7 @@ namespace CityInfo.API
                              Id = 6,
                              Name = "The Louvre",
                              Description = "The world's largest museum." },
-                    }
+                     }
                 }
             };
         }

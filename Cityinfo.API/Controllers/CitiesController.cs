@@ -13,7 +13,7 @@ namespace CityInfo.API.Controllers
         {
             return Ok(CitiesDataStore.Current.Cities);
         }
-        
+
 
         [HttpGet("{id}")]
         public ActionResult<CityDto> GetCity(int id)
