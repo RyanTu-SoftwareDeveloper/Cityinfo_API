@@ -164,5 +164,7 @@ namespace CityInfo.API.Controllers
             city.PointsOfInterest.Remove(pointOfInterestFromStore);
             return NoContent();
         }
+
+
     }
 }
