@@ -21,7 +21,7 @@ namespace CityInfo.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<PointOfInterestDto>> GetPointOfInterest(int cityId)
         {
-            throw new Exception("Exception sample");
+        
             try
             {
 
