@@ -21,10 +21,11 @@ namespace CityInfo.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<PointOfInterestDto>> GetPointOfInterest(int cityId)
         {
+            throw new Exception("Exception sample");
             try
             {
 
-                throw new Exception("Exception sample");
+                
                 var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
                 if (city == null)
                 {
